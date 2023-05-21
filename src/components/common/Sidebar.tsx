@@ -15,9 +15,11 @@ const Sidebar = () => (
           </Link>
         </li>
         <li>
-          <button className="w-full rounded-2xl bg-[#F39D10] px-8 py-4 text-left font-semibold text-white">
-            Quiz
-          </button>
+          <Link href="/">
+            <button className="w-full rounded-2xl bg-[#F39D10] px-8 py-4 text-left font-semibold text-white">
+              Quiz
+            </button>
+          </Link>
         </li>
         <li>
           <button className="w-full rounded-2xl px-8 py-4 text-left font-semibold text-[#808080]">
