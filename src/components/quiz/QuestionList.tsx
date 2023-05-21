@@ -14,6 +14,10 @@ const QuestionList = () => (
       <Question />
       <Question />
       <Question />
+      <Question />
+      <Question />
+      <Question />
+      <Question />
     </ul>
   </section>
 );

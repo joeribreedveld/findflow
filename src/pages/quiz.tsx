@@ -3,6 +3,7 @@ import { type NextPage } from "next";
 import Sidebar from "~/components/common/Sidebar";
 import QuestionList from "~/components/quiz/QuestionList";
 import QuizInfo from "~/components/quiz/QuizInfo";
+import Routecard from "~/components/quiz/Routecard";
 
 // Functions
 const Quiz: NextPage = () => (
@@ -12,6 +13,7 @@ const Quiz: NextPage = () => (
       <QuestionList />
       <div className="flex flex-col gap-6 pl-6">
         <QuizInfo />
+        <Routecard />
       </div>
     </div>
   </div>
