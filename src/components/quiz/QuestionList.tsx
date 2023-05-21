@@ -5,7 +5,7 @@ type TQuestionProps = {
 };
 
 const QuestionList = () => (
-  <section className="w-[50vw] rounded-2xl bg-white p-8">
+  <section className="w-full rounded-2xl bg-white p-8">
     <h2 className="mb-8 text-xl font-bold">Vragenlijst</h2>
     <ul className="flex flex-col gap-4">
       <Question variant="selected" />
