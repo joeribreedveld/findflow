@@ -13,7 +13,7 @@ const QuizInfo = () => (
       <QuizInfoItem title="Quiz code" answer="#LKAWA3492083" />
     </ul>
     <button className="rounded-2xl bg-[#F39D10] px-8 py-4 font-bold text-white">
-      Results
+      Resultaten
     </button>
   </section>
 );
