@@ -23,9 +23,9 @@ const Quiz = () => (
       <section className="flex flex-col gap-4 rounded-b-2xl bg-white px-8 py-6">
         <section className="flex h-full w-full justify-between gap-6">
           <h4 className="font-medium">Het leven van Karel Appel lorem ipsum</h4>
-          <a href="/results" className="text-sm text-[#2B8585] underline">
+          <Link href="/results" className="text-sm text-[#2B8585] underline">
             Resultaten
-          </a>
+          </Link>
         </section>
         <section className="flex h-full justify-between">
           <p>08-05-2023</p>
