@@ -1,5 +1,4 @@
 import classNames from "classnames";
-import { number } from "zod";
 
 type TLeaderboardItemProps = {
   variant?: "winner";
