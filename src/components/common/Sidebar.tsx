@@ -32,9 +32,9 @@ const Sidebar = () => {
             <Link href="/">
               <button
                 className={classNames("", {
-                  "w-full rounded-2xl border-2 border-[#F39D10] bg-[#F39D10] px-8 py-4 text-left font-semibold text-white":
+                  "w-full rounded-2xl bg-[#F39D10] px-8 py-4 text-left font-semibold text-white":
                     router.pathname === "/",
-                  "w-full rounded-2xl  border-2 border-[#F39D10] px-8 py-4 text-left font-semibold text-[#F39D10]":
+                  "w-full rounded-2xl px-8 py-4 text-left font-semibold text-[#808080] ":
                     router.pathname !== "/",
                 })}
               >
@@ -43,9 +43,18 @@ const Sidebar = () => {
             </Link>
           </li>
           <li>
-            <button className="w-full rounded-2xl px-8 py-4 text-left font-semibold text-[#808080]">
-              Help
-            </button>
+            <Link href="/help">
+              <button
+                className={classNames({
+                  "w-full rounded-2xl bg-[#F39D10] px-8 py-4 text-left font-semibold text-white":
+                    router.pathname === "/help",
+                  "w-full rounded-2xl px-8 py-4 text-left font-semibold text-[#808080] ":
+                    router.pathname !== "/help",
+                })}
+              >
+                Help
+              </button>
+            </Link>
           </li>
           <li>
             <button className="w-full rounded-2xl px-8 py-4 text-left font-semibold text-[#808080]">
