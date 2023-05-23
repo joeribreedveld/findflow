@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 type TQuizInfoItemProps = {
   title: string;
   answer: string;
@@ -12,9 +14,11 @@ const QuizInfo = () => (
       <QuizInfoItem title="Gemaakt door" answer="Gert Jan" />
       <QuizInfoItem title="Quiz code" answer="#LKAWA3492083" />
     </ul>
-    <button className="rounded-2xl bg-[#F39D10] px-8 py-4 font-bold text-white">
-      Resultaten
-    </button>
+    <Link href="/results">
+      <button className="rounded-2xl bg-[#F39D10] px-8 py-4 font-bold text-white">
+        Resultaten
+      </button>
+    </Link>
   </section>
 );
 
