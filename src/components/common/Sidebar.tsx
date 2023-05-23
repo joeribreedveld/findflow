@@ -64,9 +64,11 @@ const Sidebar = () => {
         </ul>
       </section>
       <section>
-        <button className="w-full rounded-2xl bg-[#2B8585] px-8 py-4 text-left font-semibold text-white">
-          Logout
-        </button>
+        <Link href="/login">
+          <button className="w-full rounded-2xl bg-[#2B8585] px-8 py-4 text-left font-semibold text-white">
+            Logout
+          </button>
+        </Link>
       </section>
     </nav>
   );
