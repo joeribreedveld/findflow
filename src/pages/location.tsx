@@ -1,15 +1,15 @@
 // Imports
 import { type NextPage } from "next";
+import Navbar from "~/components/common/Navbar";
 import Sidebar from "~/components/common/Sidebar";
-import QuestionList from "~/components/quiz/QuestionList";
 import QuizInfo from "~/components/quiz/QuizInfo";
-import Routecard from "~/components/quiz/Routecard";
 
 // Functions
 const Location: NextPage = () => (
   <div className="flex">
     <Sidebar />
     <div className="flex h-screen w-full flex-col gap-6 bg-gray-100 p-6">
+      <Navbar href="/quiz" />
       <div className="h-full w-full rounded-2xl bg-gray-500"></div>
       <div className="flex gap-6">
         <QuizInfo />
