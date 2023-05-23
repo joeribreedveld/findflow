@@ -1,4 +1,5 @@
 import classNames from "classnames";
+import Link from "next/link";
 
 type TQuestionProps = {
   variant?: "selected";
@@ -34,9 +35,11 @@ const Question = ({ variant }: TQuestionProps) => (
       <p>Hoe oud is Karel Appel</p>
     </div>
     <div className="flex items-center gap-4">
-      <button className="rounded-lg bg-[#B2CEEE] px-4 py-2 text-xs font-bold text-[#054B7D]">
-        Edit
-      </button>
+      <Link href="/question">
+        <button className="rounded-lg bg-[#B2CEEE] px-4 py-2 text-xs font-bold text-[#054B7D]">
+          Edit
+        </button>
+      </Link>
       <button className="rounded-lg bg-[#EFC4C4] px-4 py-2 text-xs font-bold text-[#A71616]">
         Delete
       </button>
