@@ -1,3 +1,7 @@
+import { AiOutlineInstagram, AiOutlineMail } from "react-icons/ai";
+
+import { FiTwitter } from "react-icons/fi";
+
 const HelpContact = () => (
   <section className="rounded-2xl bg-white p-8">
     <section className="pb-8">
@@ -10,9 +14,18 @@ const HelpContact = () => (
     </section>
     <section className="border-t border-[#EEEEEE] pt-8">
       <ul className="flex gap-12">
-        <li>@findflow</li>
-        <li>@findflow</li>
-        <li>contact@findflow.nl</li>
+        <li>
+          <AiOutlineInstagram className="mr-4 inline-block text-2xl text-[#2B8585]" />
+          @findflow
+        </li>
+        <li>
+          <FiTwitter className="mr-4 inline-block text-2xl text-[#2B8585]" />
+          @findflow
+        </li>
+        <li>
+          <AiOutlineMail className="mr-4 inline-block text-2xl text-[#2B8585]" />
+          contact@findflow.nl
+        </li>
       </ul>
     </section>
   </section>

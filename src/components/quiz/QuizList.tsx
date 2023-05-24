@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { AiOutlineShareAlt } from "react-icons/ai";
 
 const QuizList = () => (
   <ul className="grid h-full grid-cols-3 gap-6 p-6">
@@ -29,7 +30,9 @@ const Quiz = () => (
         </section>
         <section className="flex h-full justify-between">
           <p>08-05-2023</p>
-          <button>share</button>
+          <button>
+            <AiOutlineShareAlt className="text-2xl" />
+          </button>
         </section>
       </section>
     </article>
