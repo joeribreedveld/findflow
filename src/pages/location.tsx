@@ -10,7 +10,7 @@ const Location: NextPage = () => (
     <Sidebar />
     <div className="flex h-screen w-full flex-col gap-6 bg-gray-100 p-6">
       <Navbar href="/quiz" />
-      <div className="h-full w-full rounded-2xl bg-gray-500"></div>
+      <div className="h-full w-full rounded-2xl bg-[url(/img/map-placeholder.jpg)] bg-cover bg-center"></div>
       <div className="flex gap-6">
         <QuizInfo />
         <div className="h-full w-full rounded-2xl bg-white p-8">
