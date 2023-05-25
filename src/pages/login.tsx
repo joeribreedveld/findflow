@@ -4,7 +4,7 @@ import Link from "next/link";
 
 // Functions
 const Login: NextPage = () => (
-  <div className="flex h-screen items-center justify-center bg-gray-500">
+  <div className="flex h-screen items-center justify-center bg-[url(/img/map-placeholder.jpg)]">
     <section className="flex flex-col items-center rounded-2xl bg-white p-16">
       <h1 className="mb-4 text-2xl font-medium">Find Flow</h1>
       <p>Login voor docenten</p>
