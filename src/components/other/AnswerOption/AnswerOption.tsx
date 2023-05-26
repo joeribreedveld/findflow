@@ -1,11 +1,5 @@
 import classNames from "classnames";
 
-type TAnswerOptionProps = {
-  option: string;
-  answer: string;
-  correct?: boolean;
-};
-
 const AnswerOption = ({ option, answer, correct }: TAnswerOptionProps) => (
   <li
     className={classNames({

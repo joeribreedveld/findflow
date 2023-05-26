@@ -1,21 +1,7 @@
 import Link from "next/link";
 import { AiOutlineShareAlt } from "react-icons/ai";
 
-const QuizList = () => (
-  <ul className="grid h-full grid-cols-3 gap-6 p-6">
-    <Quiz />
-    <Quiz />
-    <Quiz />
-    <Quiz />
-    <Quiz />
-    <Quiz />
-    <Quiz />
-    <Quiz />
-    <Quiz />
-  </ul>
-);
-
-const Quiz = () => (
+const QuizListItem = () => (
   <li className="h-full">
     <article className="flex h-full flex-col">
       <Link href="/quiz" className="h-full w-full">
@@ -39,4 +25,4 @@ const Quiz = () => (
   </li>
 );
 
-export default QuizList;
+export default QuizListItem;
