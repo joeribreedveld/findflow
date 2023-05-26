@@ -1,0 +1,3 @@
+type TQuestionListItemProps = {
+  variant?: "selected";
+};

@@ -1,4 +1,4 @@
-import QuestionListItem from "./QuestionListItem";
+import QuestionListItem from "../QuestionListItem";
 
 const QuestionList = () => (
   <section className="w-full rounded-2xl bg-white p-8">

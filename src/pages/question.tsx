@@ -4,8 +4,8 @@ import Navbar from "~/components/common/Navbar";
 import Sidebar from "~/components/common/Sidebar";
 import AnswerOption from "~/components/quiz/AnswerOption";
 import Answers from "~/components/quiz/Answers";
-import QuestionDisplay from "~/components/quiz/QuestionDisplay";
-import QuestionSort from "~/components/quiz/QuestionSort";
+import QuestionDisplay from "~/components/question/QuestionDisplay/QuestionDisplay";
+import QuestionSort from "~/components/question/QuestionSort/QuestionSort";
 import Routecard from "~/components/quiz/Routecard";
 
 // Functions

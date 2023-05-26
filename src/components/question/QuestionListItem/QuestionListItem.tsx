@@ -1,10 +1,6 @@
 import classNames from "classnames";
 import Link from "next/link";
 
-type TQuestionListItemProps = {
-  variant?: "selected";
-};
-
 const QuestionListItem = ({ variant }: TQuestionListItemProps) => (
   <li
     className={classNames(

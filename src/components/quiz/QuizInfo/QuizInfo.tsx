@@ -1,9 +1,5 @@
 import Link from "next/link";
-
-type TQuizInfoItemProps = {
-  title: string;
-  answer: string;
-};
+import QuizInfoItem from "../QuizInfoItem/QuizInfoItem";
 
 const QuizInfo = () => (
   <section className="w-[30rem] rounded-2xl bg-white p-8">
@@ -20,13 +16,6 @@ const QuizInfo = () => (
       </button>
     </Link>
   </section>
-);
-
-const QuizInfoItem = ({ title, answer }: TQuizInfoItemProps) => (
-  <li>
-    <h3 className="text-2xl font-bold">{answer}</h3>
-    <p className="font-bold text-[#2B8585]">{title}</p>
-  </li>
 );
 
 export default QuizInfo;
