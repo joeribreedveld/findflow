@@ -1,6 +1,7 @@
 // Imports
 import QuestionListItem from "../QuestionListItem/QuestionListItem";
 import { AiOutlinePlusCircle } from "react-icons/ai";
+import Link from "next/link";
 
 // Functions
 const QuestionList = () => (
@@ -17,10 +18,12 @@ const QuestionList = () => (
       <QuestionListItem />
     </ul>
     <section className="mt-8 flex w-full items-center justify-center">
-      <button className="w-fit rounded-2xl bg-[#F39D10] px-8 py-4 font-bold text-white">
-        <AiOutlinePlusCircle className="mr-4 inline-block text-2xl" />
-        Nieuwe vraag
-      </button>
+      <Link href="/question">
+        <button className="w-fit rounded-2xl bg-[#F39D10] px-8 py-4 font-bold text-white">
+          <AiOutlinePlusCircle className="mr-4 inline-block text-2xl" />
+          Nieuwe vraag
+        </button>
+      </Link>
     </section>
   </section>
 );
