@@ -1,5 +1,5 @@
 // Imports
-import LeaderboardItem from "../LeaderboardItem/LeaderboardItem";
+import LeaderboardItem from "../../other/LeaderboardItem/LeaderboardItem";
 
 // Functions
 const Leaderboard = () => (

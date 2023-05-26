@@ -1,7 +1,7 @@
 // Imports
 import { type NextPage } from "next";
 import Sidebar from "~/components/common/Sidebar/Sidebar";
-import Faq from "~/components/other/Faq/Faq";
+import Faq from "~/components/faq/Faq/Faq";
 import HelpContact from "~/components/other/Help/Help";
 
 // Functions

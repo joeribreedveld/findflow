@@ -2,7 +2,7 @@
 import { type NextPage } from "next";
 import Navbar from "~/components/common/Navbar/Navbar";
 import Sidebar from "~/components/common/Sidebar/Sidebar";
-import Answers from "~/components/other/Answer/Answers";
+import Answers from "~/components/answer/Answer/Answers";
 import QuestionDisplay from "~/components/question/QuestionDisplay/QuestionDisplay";
 import QuestionSort from "~/components/question/QuestionSort/QuestionSort";
 import Routecard from "~/components/other/Routecard/Routecard";
