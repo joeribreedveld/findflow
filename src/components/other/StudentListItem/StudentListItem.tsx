@@ -2,7 +2,7 @@
 import classNames from "classnames";
 
 // Functions
-const Student = ({ variant }: TStudentProps) => (
+const StudentListItem = ({ variant }: TStudentListItemProps) => (
   <li
     className={classNames(
       "flex items-center justify-between rounded-2xl px-6 py-4",
@@ -22,4 +22,4 @@ const Student = ({ variant }: TStudentProps) => (
 );
 
 // Exports
-export default Student;
+export default StudentListItem;

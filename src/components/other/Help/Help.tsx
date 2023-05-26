@@ -3,7 +3,7 @@ import { AiOutlineInstagram, AiOutlineMail } from "react-icons/ai";
 import { FiTwitter } from "react-icons/fi";
 
 // Functions
-const HelpContact = () => (
+const Help = () => (
   <section className="rounded-2xl bg-white p-8">
     <section className="pb-8">
       <h2 className="mb-8 text-xl font-bold">Help en contact</h2>
@@ -33,4 +33,4 @@ const HelpContact = () => (
 );
 
 // Exports
-export default HelpContact;
+export default Help;

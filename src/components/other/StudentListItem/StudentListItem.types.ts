@@ -1,4 +1,4 @@
 // Types
-type TStudentProps = {
+type TStudentListItemProps = {
   variant?: "selected";
 };
