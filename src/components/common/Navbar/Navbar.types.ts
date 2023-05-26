@@ -1,0 +1,3 @@
+type TNavbarProps = {
+  href: string;
+};

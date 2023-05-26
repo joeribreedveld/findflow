@@ -1,3 +1,4 @@
+// Functions
 const QuestionSort = () => (
   <section className="rounded-2xl bg-white p-8">
     <h2 className="mb-8 text-xl font-bold">Vraag soort</h2>
@@ -12,4 +13,5 @@ const QuestionSort = () => (
   </section>
 );
 
+// Exports
 export default QuestionSort;

@@ -1,6 +1,6 @@
 // Imports
 import { type NextPage } from "next";
-import Sidebar from "~/components/common/Sidebar";
+import Sidebar from "~/components/common/Sidebar/Sidebar";
 import QuestionList from "~/components/question/QuestionList/QuestionList";
 import QuizInfo from "~/components/quiz/QuizInfo/QuizInfo";
 import Routecard from "~/components/other/Routecard/Routecard";

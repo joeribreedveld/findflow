@@ -1,5 +1,7 @@
+// Imports
 import QuestionListItem from "../QuestionListItem/QuestionListItem";
 
+// Functions
 const QuestionList = () => (
   <section className="w-full rounded-2xl bg-white p-8">
     <h2 className="mb-8 text-xl font-bold">Vragenlijst</h2>
@@ -16,4 +18,5 @@ const QuestionList = () => (
   </section>
 );
 
+// Exports
 export default QuestionList;

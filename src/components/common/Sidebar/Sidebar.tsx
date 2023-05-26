@@ -1,3 +1,4 @@
+// Imports
 import Link from "next/link";
 import { useRouter } from "next/router";
 import classNames from "classnames";
@@ -9,6 +10,7 @@ import {
 } from "react-icons/ai";
 import { RiLogoutCircleLine } from "react-icons/ri";
 
+// Functions
 const Sidebar = () => {
   const router = useRouter();
 
@@ -86,4 +88,5 @@ const Sidebar = () => {
   );
 };
 
+// Exports
 export default Sidebar;

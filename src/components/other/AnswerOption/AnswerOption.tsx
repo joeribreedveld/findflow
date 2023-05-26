@@ -1,5 +1,7 @@
+// Imports
 import classNames from "classnames";
 
+// Functions
 const AnswerOption = ({ option, answer, correct }: TAnswerOptionProps) => (
   <li
     className={classNames({
@@ -15,4 +17,5 @@ const AnswerOption = ({ option, answer, correct }: TAnswerOptionProps) => (
   </li>
 );
 
+// Exports
 export default AnswerOption;

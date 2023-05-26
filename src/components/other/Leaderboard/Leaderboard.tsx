@@ -1,5 +1,7 @@
+// Imports
 import LeaderboardItem from "../LeaderboardItem/LeaderboardItem";
 
+// Functions
 const Leaderboard = () => (
   <section className="h-full w-full rounded-2xl bg-white p-8">
     <h2 className="mb-8 text-xl font-bold">Leaderboard</h2>
@@ -11,4 +13,5 @@ const Leaderboard = () => (
   </section>
 );
 
+// Exports
 export default Leaderboard;

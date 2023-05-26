@@ -1,8 +1,4 @@
-type TQuizInfoItemProps = {
-  title: string;
-  answer: string;
-};
-
+// Functions
 const QuizInfoItem = ({ title, answer }: TQuizInfoItemProps) => (
   <li>
     <h3 className="text-2xl font-bold">{answer}</h3>
@@ -10,4 +6,5 @@ const QuizInfoItem = ({ title, answer }: TQuizInfoItemProps) => (
   </li>
 );
 
+// Exports
 export default QuizInfoItem;

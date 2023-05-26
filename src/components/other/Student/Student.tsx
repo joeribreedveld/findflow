@@ -1,5 +1,7 @@
+// Imports
 import classNames from "classnames";
 
+// Functions
 const Student = ({ variant }: TStudentProps) => (
   <li
     className={classNames(
@@ -19,4 +21,5 @@ const Student = ({ variant }: TStudentProps) => (
   </li>
 );
 
+// Exports
 export default Student;

@@ -1,6 +1,8 @@
+// Imports
 import classNames from "classnames";
 import Link from "next/link";
 
+// Functions
 const QuestionListItem = ({ variant }: TQuestionListItemProps) => (
   <li
     className={classNames(
@@ -27,4 +29,5 @@ const QuestionListItem = ({ variant }: TQuestionListItemProps) => (
   </li>
 );
 
+// Exports
 export default QuestionListItem;

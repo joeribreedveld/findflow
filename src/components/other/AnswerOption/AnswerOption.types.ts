@@ -1,3 +1,4 @@
+// Types
 type TAnswerOptionProps = {
   option: string;
   answer: string;

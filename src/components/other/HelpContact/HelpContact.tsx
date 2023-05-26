@@ -1,7 +1,8 @@
+// Imports
 import { AiOutlineInstagram, AiOutlineMail } from "react-icons/ai";
-
 import { FiTwitter } from "react-icons/fi";
 
+// Functions
 const HelpContact = () => (
   <section className="rounded-2xl bg-white p-8">
     <section className="pb-8">
@@ -31,4 +32,5 @@ const HelpContact = () => (
   </section>
 );
 
+// Exports
 export default HelpContact;

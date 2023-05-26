@@ -1,6 +1,8 @@
+// Imports
 import Link from "next/link";
 import { AiOutlineShareAlt } from "react-icons/ai";
 
+// Functions
 const QuizListItem = () => (
   <li className="h-full">
     <article className="flex h-full flex-col">
@@ -25,4 +27,5 @@ const QuizListItem = () => (
   </li>
 );
 
+// Exports
 export default QuizListItem;

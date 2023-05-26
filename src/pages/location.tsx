@@ -1,7 +1,7 @@
 // Imports
 import { type NextPage } from "next";
-import Navbar from "~/components/common/Navbar";
-import Sidebar from "~/components/common/Sidebar";
+import Navbar from "~/components/common/Navbar/Navbar";
+import Sidebar from "~/components/common/Sidebar/Sidebar";
 import QuizInfo from "~/components/quiz/QuizInfo/QuizInfo";
 
 // Functions

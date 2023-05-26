@@ -1,9 +1,7 @@
+// Imports
 import Link from "next/link";
 
-type TNavbarProps = {
-  href: string;
-};
-
+// Functions
 const Navbar = ({ href }: TNavbarProps) => (
   <nav className="flex items-center gap-6">
     <Link href={href}>
@@ -22,4 +20,5 @@ const Navbar = ({ href }: TNavbarProps) => (
   </nav>
 );
 
+// Exports
 export default Navbar;

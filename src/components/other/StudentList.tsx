@@ -1,5 +1,6 @@
 import Student from "./Student/Student";
 
+// Functions
 const StudentList = () => (
   <section className="w-full rounded-2xl bg-white p-8">
     <h2 className="mb-8 text-xl font-bold">Resultaten</h2>
@@ -20,4 +21,5 @@ const StudentList = () => (
   </section>
 );
 
+// Exports
 export default StudentList;

@@ -1,5 +1,7 @@
+// Imports
 import AnswerOption from "../AnswerOption/AnswerOption";
 
+// Functions
 const Answers = () => (
   <section className="h-full w-full rounded-2xl bg-white p-8">
     <h2 className="mb-8 text-xl font-bold">Antwoorden</h2>
@@ -11,4 +13,5 @@ const Answers = () => (
   </section>
 );
 
+// Exports
 export default Answers;
