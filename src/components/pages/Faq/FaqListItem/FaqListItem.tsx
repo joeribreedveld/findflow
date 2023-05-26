@@ -3,7 +3,7 @@ import { useState } from "react";
 import { AiOutlinePlusCircle } from "react-icons/ai";
 
 // Functions
-const FaqItem = () => {
+const FaqListItem = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -21,4 +21,4 @@ const FaqItem = () => {
 };
 
 // Exports
-export default FaqItem;
+export default FaqListItem;

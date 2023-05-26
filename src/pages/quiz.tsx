@@ -1,9 +1,9 @@
 // Imports
 import { type NextPage } from "next";
 import Sidebar from "~/components/common/Sidebar/Sidebar";
-import QuestionList from "~/components/question/QuestionList/QuestionList";
-import QuizInfo from "~/components/quiz/QuizInfo/QuizInfo";
-import Routecard from "~/components/other/Routecard/Routecard";
+import QuestionList from "~/components/pages/Question/QuestionList/QuestionList";
+import QuizInfo from "~/components/pages/Quiz/QuizInfo/QuizInfo";
+import Routecard from "~/components/pages/Routecard/Routecard";
 
 // Functions
 const Quiz: NextPage = () => (

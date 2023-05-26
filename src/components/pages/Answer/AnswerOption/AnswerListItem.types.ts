@@ -1,5 +1,5 @@
 // Types
-type TAnswerOptionProps = {
+type TAnswerListItemProps = {
   option: string;
   answer: string;
   correct?: boolean;

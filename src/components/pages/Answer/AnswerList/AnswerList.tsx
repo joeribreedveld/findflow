@@ -1,8 +1,8 @@
 // Imports
-import AnswerOption from "../AnswerOption/AnswerOption";
+import AnswerOption from "../AnswerOption/AnswerListItem";
 
 // Functions
-const Answers = () => (
+const AnswerList = () => (
   <section className="h-full w-full rounded-2xl bg-white p-8">
     <h2 className="mb-8 text-xl font-bold">Antwoorden</h2>
     <ul className="flex flex-col gap-6">
@@ -14,4 +14,4 @@ const Answers = () => (
 );
 
 // Exports
-export default Answers;
+export default AnswerList;

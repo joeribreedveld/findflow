@@ -2,7 +2,7 @@
 import classNames from "classnames";
 
 // Functions
-const AnswerOption = ({ option, answer, correct }: TAnswerOptionProps) => (
+const AnswerListItem = ({ option, answer, correct }: TAnswerListItemProps) => (
   <li
     className={classNames({
       "flex items-center gap-8 rounded-2xl bg-[#eee] p-4 text-lg": !correct,
@@ -18,4 +18,4 @@ const AnswerOption = ({ option, answer, correct }: TAnswerOptionProps) => (
 );
 
 // Exports
-export default AnswerOption;
+export default AnswerListItem;

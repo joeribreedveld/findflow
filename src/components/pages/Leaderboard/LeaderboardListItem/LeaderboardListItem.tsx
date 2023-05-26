@@ -2,7 +2,11 @@
 import classNames from "classnames";
 
 // Functions
-const LeaderboardItem = ({ variant, name, number }: TLeaderboardItemProps) => (
+const LeaderboardListItem = ({
+  variant,
+  name,
+  number,
+}: TLeaderboardListItemProps) => (
   <li
     className={classNames("flex items-center gap-6 rounded-2xl px-6 py-2 ", {
       "bg-[#F39D10] text-white": variant === "winner",
@@ -15,4 +19,4 @@ const LeaderboardItem = ({ variant, name, number }: TLeaderboardItemProps) => (
 );
 
 // Exports
-export default LeaderboardItem;
+export default LeaderboardListItem;

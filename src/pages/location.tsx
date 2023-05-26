@@ -2,7 +2,7 @@
 import { type NextPage } from "next";
 import Navbar from "~/components/common/Navbar/Navbar";
 import Sidebar from "~/components/common/Sidebar/Sidebar";
-import QuizInfo from "~/components/quiz/QuizInfo/QuizInfo";
+import QuizInfo from "~/components/pages/Quiz/QuizInfo/QuizInfo";
 
 // Functions
 const Location: NextPage = () => (

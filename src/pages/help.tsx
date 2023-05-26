@@ -1,8 +1,8 @@
 // Imports
 import { type NextPage } from "next";
 import Sidebar from "~/components/common/Sidebar/Sidebar";
-import Faq from "~/components/faq/Faq/Faq";
-import HelpContact from "~/components/other/Help/Help";
+import Faq from "~/components/pages/Faq/FaqList/FaqList";
+import HelpContact from "~/components/pages/Help/Help";
 
 // Functions
 const Help: NextPage = () => (
