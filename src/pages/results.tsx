@@ -1,9 +1,9 @@
 // Imports
 import { type NextPage } from "next";
 import Sidebar from "~/components/common/Sidebar/Sidebar";
-import StudentList from "~/components/student/StudentList/StudentList";
+import StudentList from "~/components/pages/Student/StudentList/StudentList";
 import QuizInfo from "~/components/pages/Quiz/QuizInfo/QuizInfo";
-import Leaderboard from "~/components/leaderboard/Leaderboard/Leaderboard";
+import Leaderboard from "~/components/pages/Leaderboard/LeaderboardList/LeaderboardList";
 
 // Functions
 const Results: NextPage = () => (

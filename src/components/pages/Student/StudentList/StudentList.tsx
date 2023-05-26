@@ -1,4 +1,4 @@
-import Student from "../../other/StudentListItem/StudentListItem";
+import Student from "../StudentListItem/StudentListItem";
 
 // Functions
 const StudentList = () => (
