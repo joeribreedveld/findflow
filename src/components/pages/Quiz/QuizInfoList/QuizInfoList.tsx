@@ -6,7 +6,7 @@ import QuizInfoListItem from "../QuizInfoItem/QuizInfoItem";
 const QuizInfoList = () => (
   <section className="w-[30rem] rounded-2xl bg-white p-8">
     <h2 className="mb-8 text-xl font-semibold">Quiz informatie</h2>
-    <ul className="mb-10 flex flex-col gap-8">
+    <ul className="mb-10 flex flex-col gap-6">
       <QuizInfoListItem title="Aantal vragen" answer="20 vragen" />
       <QuizInfoListItem title="Gemiddelde score" answer="16/20" />
       <QuizInfoListItem title="Gemaakt door" answer="Gert Jan" />
