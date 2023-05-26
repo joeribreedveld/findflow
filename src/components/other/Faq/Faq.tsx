@@ -1,4 +1,4 @@
-import FaqItem from "./FaqItem/FaqItem";
+import FaqItem from "../FaqItem/FaqItem";
 
 const Faq = () => (
   <section className="h-full rounded-2xl bg-white p-8">

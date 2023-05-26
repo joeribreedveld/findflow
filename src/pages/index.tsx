@@ -1,7 +1,7 @@
 // Imports
 import { type NextPage } from "next";
 import Sidebar from "~/components/common/Sidebar";
-import QuizList from "~/components/quiz/QuizList";
+import QuizList from "~/components/quiz/QuizList/QuizList";
 
 // Functions
 const Home: NextPage = () => (

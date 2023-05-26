@@ -3,10 +3,10 @@ import { type NextPage } from "next";
 import Navbar from "~/components/common/Navbar";
 import Sidebar from "~/components/common/Sidebar";
 import AnswerOption from "~/components/other/AnswerOption/AnswerOption";
-import Answers from "~/components/quiz/Answers";
+import Answers from "~/components/other/Answer/Answers";
 import QuestionDisplay from "~/components/question/QuestionDisplay/QuestionDisplay";
 import QuestionSort from "~/components/question/QuestionSort/QuestionSort";
-import Routecard from "~/components/quiz/Routecard";
+import Routecard from "~/components/other/Routecard/Routecard";
 
 // Functions
 const Question: NextPage = () => (
