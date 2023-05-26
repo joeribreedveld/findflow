@@ -12,9 +12,9 @@ const LeaderboardListItem = ({
       "bg-[#F39D10] text-white": variant === "winner",
     })}
   >
-    <p className="text-2xl font-bold">{number}</p>
+    <p className="text-2xl font-semibold">{number}</p>
     <div className="h-[40px] w-[40px] rounded-full bg-gray-500"></div>
-    <h3 className="font-bold">{name}</h3>
+    <h3 className="font-semibold">{name}</h3>
   </li>
 );
 

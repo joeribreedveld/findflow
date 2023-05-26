@@ -1,5 +1,5 @@
 // Types
-type TQuizInfoItemProps = {
+type TQuizInfoListItemProps = {
   title: string;
   answer: string;
 };

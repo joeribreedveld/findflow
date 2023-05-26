@@ -1,10 +1,10 @@
 // Functions
-const QuizInfoItem = ({ title, answer }: TQuizInfoItemProps) => (
+const QuizInfoListItem = ({ title, answer }: TQuizInfoListItemProps) => (
   <li>
-    <h3 className="text-2xl font-bold">{answer}</h3>
-    <p className="font-bold text-[#2B8585]">{title}</p>
+    <h3 className="mb-1 text-xl font-semibold">{answer}</h3>
+    <p className="font-semibold text-[#2B8585]">{title}</p>
   </li>
 );
 
 // Exports
-export default QuizInfoItem;
+export default QuizInfoListItem;

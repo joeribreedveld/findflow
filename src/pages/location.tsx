@@ -2,7 +2,7 @@
 import { type NextPage } from "next";
 import Navbar from "~/components/common/Navbar/Navbar";
 import Sidebar from "~/components/common/Sidebar/Sidebar";
-import QuizInfo from "~/components/pages/Quiz/QuizInfo/QuizInfo";
+import QuizInfo from "~/components/pages/Quiz/QuizInfoList/QuizInfoList";
 
 // Functions
 const Location: NextPage = () => (
@@ -14,7 +14,7 @@ const Location: NextPage = () => (
       <div className="flex gap-6">
         <QuizInfo />
         <div className="h-full w-full rounded-2xl bg-white p-8">
-          <h2 className="mb-8 text-xl font-bold">Selecteer je locatie</h2>
+          <h2 className="mb-8 text-xl font-semibold">Selecteer je locatie</h2>
           <p className="underline">Locatie bepalen</p>
           <p className="underline">locatie verwijderen</p>
         </div>

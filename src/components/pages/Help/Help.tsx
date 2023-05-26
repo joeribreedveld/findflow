@@ -6,7 +6,7 @@ import { FiTwitter } from "react-icons/fi";
 const Help = () => (
   <section className="rounded-2xl bg-white p-8">
     <section className="pb-8">
-      <h2 className="mb-8 text-xl font-bold">Help en contact</h2>
+      <h2 className="mb-8 text-xl font-semibold">Help en contact</h2>
       <p>
         We vinden het belangrijk om in contact te blijven met onze bezoekers en
         klanten, daarom hebben we deze pagina gemaakt zodat u gemakkelijk met
