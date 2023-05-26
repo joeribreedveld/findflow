@@ -9,6 +9,7 @@ import {
   AiOutlineInfoCircle,
 } from "react-icons/ai";
 import { RiLogoutCircleLine } from "react-icons/ri";
+import { BsTree } from "react-icons/bs";
 
 // Functions
 const Sidebar = () => {
@@ -17,7 +18,8 @@ const Sidebar = () => {
   return (
     <nav className="flex min-h-screen min-w-[16rem] flex-col justify-between p-8">
       <section>
-        <Link href="/">
+        <Link href="/" className="flex items-center">
+          <BsTree className="mr-3 text-3xl text-[#2B8585]" />
           <h1 className="text-xl font-medium">Find Flow</h1>
         </Link>
       </section>
