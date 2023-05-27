@@ -1,13 +1,23 @@
 // Imports
 import Link from "next/link";
 import { AiOutlineShareAlt } from "react-icons/ai";
+import Image from "next/image";
 
 // Functions
 const QuizListItem = () => (
   <li className="h-full">
     <article className="flex h-full flex-col">
       <Link href="/quiz" className="h-full w-full">
-        <section className="h-full rounded-t-2xl bg-[url(/img/learn-placeholder.jpg)] bg-cover bg-center"></section>
+        <section className="relative flex h-full items-center justify-center rounded-t-2xl hover:bg-black">
+          <Image
+            src="/img/learn-placeholder.jpg"
+            layout="fill"
+            objectFit="cover"
+            className="rounded-t-2xl hover:opacity-50"
+            alt="Placeholder"
+          />
+          <p className="r-4 text-lg font-semibold text-white">CLICK TO EDIT</p>
+        </section>
       </Link>
       <section className="flex flex-col gap-4 rounded-b-2xl bg-white px-8 py-6">
         <section className="flex h-full w-full justify-between gap-6">
