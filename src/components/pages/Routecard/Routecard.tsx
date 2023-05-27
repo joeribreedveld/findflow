@@ -15,7 +15,9 @@ const Routecard = () => (
           className="rounded-t-2xl hover:opacity-50"
           alt="Placeholder"
         />
-        <p className="r-4 text-lg font-semibold text-white">CLICK TO EDIT</p>
+        <p className="text-lg font-semibold tracking-wider text-white">
+          CLICK TO EDIT
+        </p>
       </div>
     </Link>
   </section>
