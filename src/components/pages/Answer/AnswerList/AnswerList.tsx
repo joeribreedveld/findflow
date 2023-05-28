@@ -1,5 +1,5 @@
 // Imports
-import AnswerOption from "../AnswerOption/AnswerListItem";
+import AnswerOption from "../AnswerListItem/AnswerListItem";
 
 // Functions
 const AnswerList = () => (

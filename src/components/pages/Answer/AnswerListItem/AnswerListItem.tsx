@@ -5,7 +5,8 @@ import classNames from "classnames";
 const AnswerListItem = ({ option, answer, correct }: TAnswerListItemProps) => (
   <li
     className={classNames({
-      "flex items-center gap-8 rounded-2xl bg-[#eee] p-4 text-lg": !correct,
+      "flex items-center gap-8 rounded-2xl bg-[#eee] p-4 text-lg hover:bg-gray-300":
+        !correct,
       "flex items-center gap-8 rounded-2xl bg-[#F39D10] p-4 text-lg font-semibold text-white":
         correct,
     })}

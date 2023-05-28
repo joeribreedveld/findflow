@@ -6,7 +6,7 @@ const QuestionSort = () => (
       <button className="w-full rounded-2xl bg-[#F39D10] py-6 text-lg font-semibold text-white">
         Meerkeuze
       </button>
-      <button className="w-full rounded-2xl bg-[#eee] py-6 text-lg">
+      <button className="w-full rounded-2xl bg-[#eee] py-6 text-lg hover:bg-gray-300">
         Open
       </button>
     </div>
