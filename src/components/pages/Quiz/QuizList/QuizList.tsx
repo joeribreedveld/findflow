@@ -1,5 +1,6 @@
+/* eslint-disable */
+
 // Imports
-import { log } from "console";
 import QuizListItem from "../QuizListItem/QuizListItem";
 import { useEffect, useState } from "react";
 
