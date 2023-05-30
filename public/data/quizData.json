@@ -1,7 +1,56 @@
 [
   {
-    "title": "",
-    "date": "",
-    "img": ""
+    "id": 1,
+    "title": "De Kennisjacht: Test je Vaardigheden!",
+    "date": "01-01-2023",
+    "img": "/img/quiz-1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Academische Ontdekkingsreis: Quizavontuur!",
+    "date": "08-01-2023",
+    "img": "/img/quiz-2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Nederlandse Meesters: Cultuur en Geschiedenis!",
+    "date": "15-01-2023",
+    "img": "/img/quiz-3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Taalkundige Tovertocht: Nederlandse Taal!",
+    "date": "22-01-2023",
+    "img": "/img/quiz-4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Wetenschapsverkenning: Natuur en Technologie!",
+    "date": "29-01-2023",
+    "img": "/img/quiz-5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Geografische Expeditie: Reis in een Quiz!",
+    "date": "05-02-2023",
+    "img": "/img/quiz-6.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Wiskundige Puzzels: Rekenvraagstukken Oplossen!",
+    "date": "12-02-2023",
+    "img": "/img/quiz-7.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Muzikale Melodieën: Nederlandse Muziekgeschiedenis!",
+    "date": "19-02-2023",
+    "img": "/img/quiz-8.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Creatieve Uitdaging: Artistieke Vaardigheden!",
+    "date": "26-02-2023",
+    "img": "/img/quiz-9.jpg"
   }
 ]

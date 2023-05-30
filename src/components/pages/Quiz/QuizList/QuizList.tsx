@@ -1,4 +1,5 @@
 // Imports
+import { log } from "console";
 import QuizListItem from "../QuizListItem/QuizListItem";
 import { useEffect, useState } from "react";
 
@@ -16,9 +17,7 @@ const QuizList = () => {
   useEffect(() => {
     const fetchData = async () => {
       const data = await getQuizData();
-      setQuizData(data);
-
-      console.log(data);
+      setQuizData(data.quizData);
     };
 
     fetchData();
@@ -26,15 +25,15 @@ const QuizList = () => {
 
   return (
     <ul className="grid h-full grid-cols-3 gap-6 p-6">
-      <QuizListItem />
-      <QuizListItem />
-      <QuizListItem />
-      <QuizListItem />
-      <QuizListItem />
-      <QuizListItem />
-      <QuizListItem />
-      <QuizListItem />
-      <QuizListItem />
+      {quizData.map((quiz: TQuiz) => (
+        <QuizListItem
+          id={quiz.id}
+          title={quiz.title}
+          date={quiz.date}
+          img={quiz.img}
+          key={quiz.id}
+        />
+      ))}
     </ul>
   );
 };
