@@ -19,11 +19,11 @@ const QuestionListItem = ({ variant }: TQuestionListItemProps) => (
     <div className="flex items-center gap-4">
       <Link href="/question">
         <button className="rounded-lg bg-[#B2CEEE] px-4 py-2 text-xs font-semibold text-[#054B7D]">
-          Edit
+          Wijzigen
         </button>
       </Link>
       <button className="rounded-lg bg-[#EFC4C4] px-4 py-2 text-xs font-semibold text-[#A71616]">
-        Delete
+        Verwijderen
       </button>
     </div>
   </li>

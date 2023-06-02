@@ -16,7 +16,7 @@ const Routecard = () => (
           alt="Placeholder"
         />
         <p className="text-lg font-semibold tracking-wider text-white">
-          CLICK TO EDIT
+          WIJZIGEN
         </p>
       </div>
     </Link>
