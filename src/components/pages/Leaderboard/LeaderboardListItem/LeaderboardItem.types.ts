@@ -3,4 +3,5 @@ type TLeaderboardListItemProps = {
   variant?: "winner";
   name: string;
   number: string;
+  img: string;
 };

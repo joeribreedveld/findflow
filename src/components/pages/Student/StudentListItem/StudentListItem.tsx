@@ -1,8 +1,14 @@
 // Imports
 import classNames from "classnames";
+import Image from "next/image";
 
 // Functions
-const StudentListItem = ({ variant }: TStudentListItemProps) => (
+const StudentListItem = ({
+  variant,
+  name,
+  score,
+  img,
+}: TStudentListItemProps) => (
   <li
     className={classNames(
       "flex items-center justify-between rounded-2xl px-6 py-4",
@@ -12,11 +18,17 @@ const StudentListItem = ({ variant }: TStudentListItemProps) => (
     )}
   >
     <div className="flex items-center gap-4">
-      <div className="h-[40px] w-[40px] rounded-full bg-gray-500"></div>
-      <p>Student naam</p>
+      <Image
+        src={img}
+        alt="Student"
+        width={40}
+        height={40}
+        className="h-[40px] w-[40px] rounded-full object-cover"
+      />
+      <p>{name}</p>
     </div>
     <div className="flex items-center gap-4">
-      <p>14/20</p>
+      <p>{score}</p>
     </div>
   </li>
 );
