@@ -12,7 +12,7 @@ const Routecard = () => (
           src="/img/map-placeholder.jpg"
           layout="fill"
           objectFit="cover"
-          className="rounded-2xl hover:opacity-50"
+          className="ease-inout rounded-2xl transition hover:opacity-50"
           alt="Placeholder"
         />
         <p className="text-lg font-semibold tracking-wider text-white">OPEN</p>

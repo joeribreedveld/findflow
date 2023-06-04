@@ -29,9 +29,9 @@ const Sidebar = () => {
             <Link href="/create-quiz">
               <button
                 className={classNames(
-                  "w-full rounded-2xl border-2 border-[#2B8585] px-4 py-4 text-left font-semibold text-[#2B8585]",
+                  "w-full rounded-2xl border-2 border-[#2B8585] px-4 py-4 text-left font-semibold text-[#2B8585] transition ease-in-out hover:brightness-90",
                   {
-                    "bg-[#2B8585] text-white":
+                    "bg-[#2B8585] text-white transition ease-in-out hover:brightness-90":
                       router.pathname === "/create-quiz",
                   }
                 )}
@@ -45,13 +45,13 @@ const Sidebar = () => {
             <Link href="/">
               <button
                 className={classNames("", {
-                  "w-full rounded-2xl bg-[#F39D10] px-4 py-4 text-left font-semibold text-white":
+                  "w-full rounded-2xl bg-[#F39D10] px-4 py-4 text-left font-semibold text-white transition ease-in-out hover:brightness-90":
                     router.pathname === "/" ||
                     router.pathname === "/quiz" ||
                     router.pathname === "/question" ||
                     router.pathname === "/result" ||
                     router.pathname === "/location",
-                  "w-full rounded-2xl px-4 py-4 text-left font-semibold text-[#808080] ":
+                  "w-full rounded-2xl px-4 py-4 text-left font-semibold text-[#808080] transition ease-in-out hover:brightness-90":
                     router.pathname !== "/",
                 })}
               >
@@ -64,9 +64,9 @@ const Sidebar = () => {
             <Link href="/help">
               <button
                 className={classNames({
-                  "w-full rounded-2xl bg-[#F39D10] px-4 py-4 text-left font-semibold text-white":
+                  "w-full rounded-2xl bg-[#F39D10] px-4 py-4 text-left font-semibold text-white transition ease-in-out hover:brightness-90":
                     router.pathname === "/help",
-                  "w-full rounded-2xl px-4 py-4 text-left font-semibold text-[#808080] ":
+                  "w-full rounded-2xl px-4 py-4 text-left font-semibold text-[#808080] transition ease-in-out hover:brightness-90":
                     router.pathname !== "/help",
                 })}
               >
@@ -79,9 +79,9 @@ const Sidebar = () => {
             <Link href="/about">
               <button
                 className={classNames({
-                  "w-full rounded-2xl bg-[#F39D10] px-4 py-4 text-left font-semibold text-white":
+                  "w-full rounded-2xl bg-[#F39D10] px-4 py-4 text-left font-semibold text-white transition ease-in-out hover:brightness-90":
                     router.pathname === "/about",
-                  "w-full rounded-2xl px-4 py-4 text-left font-semibold text-[#808080] ":
+                  "w-full rounded-2xl px-4 py-4 text-left font-semibold text-[#808080] transition ease-in-out hover:brightness-90":
                     router.pathname !== "/about",
                 })}
               >
@@ -94,7 +94,7 @@ const Sidebar = () => {
       </section>
       <section>
         <Link href="/login">
-          <button className="w-full rounded-2xl bg-[#2B8585] px-4 py-4 text-left font-semibold text-white">
+          <button className="w-full rounded-2xl bg-[#2B8585] px-4 py-4 text-left font-semibold text-white transition ease-in-out hover:brightness-90">
             <RiLogoutCircleLine className="mr-4 inline-block text-2xl" />
             Logout
           </button>

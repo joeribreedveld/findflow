@@ -14,7 +14,7 @@ const QuizInfoList = () => (
       <QuizInfoListItem title="Quiz code" answer="#LKAWA3492083" />
     </ul>
     <Link href="/results">
-      <button className="rounded-2xl bg-[#F39D10] px-8 py-4 font-semibold text-white">
+      <button className="rounded-2xl bg-[#F39D10] px-8 py-4 font-semibold text-white transition ease-in-out hover:brightness-90">
         Resultaten
       </button>
     </Link>

@@ -22,11 +22,11 @@ const QuestionListItem = ({
     </div>
     <div className="flex items-center gap-4">
       <Link href="/question">
-        <button className="rounded-lg bg-[#B2CEEE] px-4 py-2 text-xs font-semibold text-[#054B7D]">
+        <button className="rounded-lg bg-[#B2CEEE] px-4 py-2 text-xs font-semibold text-[#054B7D] transition ease-in-out hover:brightness-90">
           Wijzigen
         </button>
       </Link>
-      <button className="rounded-lg bg-[#EFC4C4] px-4 py-2 text-xs font-semibold text-[#A71616]">
+      <button className="rounded-lg bg-[#EFC4C4] px-4 py-2 text-xs font-semibold text-[#A71616] transition ease-in-out hover:brightness-90">
         Verwijderen
       </button>
     </div>

@@ -29,7 +29,7 @@ const QuestionList = ({ empty = false }: TQuestionListProps) => (
 
     <section className="mt-8 flex w-full items-center justify-center">
       <Link href="/question">
-        <button className="w-fit rounded-2xl bg-[#F39D10] px-8 py-4 font-semibold text-white">
+        <button className="w-fit rounded-2xl bg-[#F39D10] px-8 py-4 font-semibold text-white transition ease-in-out hover:brightness-90">
           <AiOutlinePlusCircle className="mr-4 inline-block text-2xl" />
           Nieuwe vraag
         </button>

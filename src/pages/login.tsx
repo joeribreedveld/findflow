@@ -22,7 +22,7 @@ const Login: NextPage = () => (
           placeholder="Wachtwoord"
         />
         <Link href="/">
-          <button className="mt-8 w-full rounded bg-[#2B8585] py-4 text-white">
+          <button className="mt-8 w-full rounded bg-[#2B8585] py-4 text-white transition ease-in-out hover:brightness-90">
             Login
           </button>
         </Link>
