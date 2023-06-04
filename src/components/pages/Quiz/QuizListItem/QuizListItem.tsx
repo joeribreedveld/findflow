@@ -17,7 +17,7 @@ const QuizListItem = ({ id, title, date, img }: TQuiz) => (
             alt={title}
           />
           <p className="text-lg font-semibold tracking-wider text-white">
-            WIJZIGEN
+            OPEN
           </p>
         </section>
       </Link>

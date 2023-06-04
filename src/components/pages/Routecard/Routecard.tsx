@@ -15,9 +15,7 @@ const Routecard = () => (
           className="rounded-2xl hover:opacity-50"
           alt="Placeholder"
         />
-        <p className="text-lg font-semibold tracking-wider text-white">
-          WIJZIGEN
-        </p>
+        <p className="text-lg font-semibold tracking-wider text-white">OPEN</p>
       </div>
     </Link>
   </section>
