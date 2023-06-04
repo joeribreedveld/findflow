@@ -8,12 +8,12 @@ const QuizListItem = ({ id, title, date, img }: TQuiz) => (
   <li className="h-full">
     <article className="flex h-full flex-col">
       <Link href="/quiz" className="h-full w-full">
-        <section className="relative flex h-full items-center justify-center rounded-t-2xl transition ease-in-out hover:bg-black">
+        <section className="relative flex h-full items-center justify-center rounded-t-2xl transition duration-300 ease-in-out hover:bg-black">
           <Image
             src={img}
             layout="fill"
             objectFit="cover"
-            className="rounded-t-2xl transition ease-in-out hover:opacity-50"
+            className="rounded-t-2xl transition duration-300 ease-in-out hover:opacity-50"
             alt={title}
           />
           <p className="text-lg font-semibold tracking-wider text-white">
