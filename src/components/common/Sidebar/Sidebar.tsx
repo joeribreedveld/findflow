@@ -46,7 +46,11 @@ const Sidebar = () => {
               <button
                 className={classNames("", {
                   "w-full rounded-2xl bg-[#F39D10] px-4 py-4 text-left font-semibold text-white":
-                    router.pathname === "/",
+                    router.pathname === "/" ||
+                    router.pathname === "/quiz" ||
+                    router.pathname === "/question" ||
+                    router.pathname === "/result" ||
+                    router.pathname === "/location",
                   "w-full rounded-2xl px-4 py-4 text-left font-semibold text-[#808080] ":
                     router.pathname !== "/",
                 })}
