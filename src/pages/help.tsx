@@ -8,7 +8,7 @@ import HelpContact from "~/components/pages/Help/Help";
 const Help: NextPage = () => (
   <div className="flex">
     <Sidebar />
-    <div className="flex h-screen w-full flex-col gap-6 bg-gray-100 p-6">
+    <div className="flex min-h-screen w-full flex-col gap-6 bg-gray-100 p-6">
       <Faq />
       <HelpContact />
     </div>

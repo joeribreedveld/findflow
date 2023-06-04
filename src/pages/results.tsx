@@ -9,7 +9,7 @@ import Leaderboard from "~/components/pages/Leaderboard/LeaderboardList/Leaderbo
 const Results: NextPage = () => (
   <div className="flex">
     <Sidebar />
-    <div className="flex h-screen w-full bg-gray-100 p-6">
+    <div className="flex min-h-screen w-full bg-gray-100 p-6">
       <StudentList />
       <div className="flex flex-col gap-6 pl-6">
         <QuizInfo />

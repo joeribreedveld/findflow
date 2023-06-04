@@ -16,7 +16,7 @@ const Sidebar = () => {
   const router = useRouter();
 
   return (
-    <nav className="flex min-h-screen min-w-[16rem] flex-col justify-between p-8">
+    <nav className="flex h-screen min-w-[16rem] flex-col justify-between p-8">
       <section>
         <Link href="/" className="flex items-center">
           <BsTree className="mr-3 text-3xl text-[#2B8585]" />

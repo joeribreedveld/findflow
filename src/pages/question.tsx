@@ -11,7 +11,7 @@ import Routecard from "~/components/pages/Routecard/Routecard";
 const Question: NextPage = () => (
   <div className="flex">
     <Sidebar />
-    <div className="flex h-screen w-full flex-col gap-6 bg-gray-100 p-6">
+    <div className="flex min-h-screen w-full flex-col gap-6 bg-gray-100 p-6">
       <Navbar href="/quiz" />
       <div className="flex h-full flex-col gap-6">
         <QuestionDisplay />

@@ -7,7 +7,7 @@ import QuizList from "~/components/pages/Quiz/QuizList/QuizList";
 const Home: NextPage = () => (
   <div className="flex">
     <Sidebar />
-    <div className="h-screen w-full bg-gray-100">
+    <div className="min-h-screen w-full bg-gray-100">
       <QuizList />
     </div>
   </div>

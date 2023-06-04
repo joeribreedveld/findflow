@@ -8,7 +8,7 @@ import QuizInfo from "~/components/pages/Quiz/QuizInfoList/QuizInfoList";
 const Location: NextPage = () => (
   <div className="flex">
     <Sidebar />
-    <div className="flex h-screen w-full flex-col gap-6 bg-gray-100 p-6">
+    <div className="flex min-h-screen w-full flex-col gap-6 bg-gray-100 p-6">
       <Navbar href="/quiz" />
       <div className="h-full w-full rounded-2xl bg-[url(/img/map-placeholder.jpg)] bg-cover bg-center"></div>
       <div className="flex gap-6">

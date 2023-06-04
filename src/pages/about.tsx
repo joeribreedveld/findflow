@@ -6,7 +6,7 @@ import Sidebar from "~/components/common/Sidebar/Sidebar";
 const About: NextPage = () => (
   <div className="flex">
     <Sidebar />
-    <div className="flex h-screen w-full bg-gray-100 p-6">
+    <div className="flex min-h-screen w-full bg-gray-100 p-6">
       Page under construction
     </div>
   </div>
