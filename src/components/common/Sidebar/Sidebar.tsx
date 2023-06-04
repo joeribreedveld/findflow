@@ -72,10 +72,19 @@ const Sidebar = () => {
             </Link>
           </li>
           <li>
-            <button className="w-full rounded-2xl px-4 py-4 text-left font-semibold text-[#808080]">
-              <AiOutlineInfoCircle className="mr-4 inline-block text-2xl" />
-              Over
-            </button>
+            <Link href="/about">
+              <button
+                className={classNames({
+                  "w-full rounded-2xl bg-[#F39D10] px-4 py-4 text-left font-semibold text-white":
+                    router.pathname === "/about",
+                  "w-full rounded-2xl px-4 py-4 text-left font-semibold text-[#808080] ":
+                    router.pathname !== "/about",
+                })}
+              >
+                <AiOutlineQuestionCircle className="mr-4 inline-block text-2xl" />
+                Over
+              </button>
+            </Link>
           </li>
         </ul>
       </section>
