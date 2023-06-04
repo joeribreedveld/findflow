@@ -49,7 +49,7 @@ const Sidebar = () => {
                     router.pathname === "/" ||
                     router.pathname === "/quiz" ||
                     router.pathname === "/question" ||
-                    router.pathname === "/result" ||
+                    router.pathname === "/results" ||
                     router.pathname === "/location",
                   "w-full rounded-2xl px-4 py-4 text-left font-semibold text-[#808080] transition duration-200 ease-in-out hover:brightness-90":
                     router.pathname !== "/",
