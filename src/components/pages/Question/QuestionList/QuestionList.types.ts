@@ -1,0 +1,3 @@
+type TQuestionListProps = {
+  empty?: boolean;
+};

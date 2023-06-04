@@ -26,12 +26,13 @@ const Sidebar = () => {
       <section>
         <ul className="flex flex-col gap-6">
           <li>
-            <Link href="/quiz">
+            <Link href="/create-quiz">
               <button
                 className={classNames(
                   "w-full rounded-2xl border-2 border-[#2B8585] px-4 py-4 text-left font-semibold text-[#2B8585]",
                   {
-                    "bg-[#2B8585] text-white": router.pathname === "/quiz",
+                    "bg-[#2B8585] text-white":
+                      router.pathname === "/create-quiz",
                   }
                 )}
               >

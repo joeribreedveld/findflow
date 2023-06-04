@@ -3,7 +3,11 @@ import classNames from "classnames";
 import Link from "next/link";
 
 // Functions
-const QuestionListItem = ({ variant }: TQuestionListItemProps) => (
+const QuestionListItem = ({
+  variant,
+  number,
+  question,
+}: TQuestionListItemProps) => (
   <li
     className={classNames(
       "flex items-center justify-between rounded-2xl px-6 py-4",
@@ -13,8 +17,8 @@ const QuestionListItem = ({ variant }: TQuestionListItemProps) => (
     )}
   >
     <div className="flex items-center gap-8">
-      <p>1.</p>
-      <p>Hoe oud is Karel Appel</p>
+      <p>{number}.</p>
+      <p>{question}</p>
     </div>
     <div className="flex items-center gap-4">
       <Link href="/question">
